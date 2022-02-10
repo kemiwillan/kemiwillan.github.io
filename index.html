@@ -60,7 +60,7 @@
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: black;
+        background-color: rgba(128, 128, 128, 0.632);
       }
 
       /* Modal Content */
@@ -165,53 +165,57 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
+
+      .card-link {
+        text-decoration: none;
+        color: black;
+      }
     </style>
   </head>
   <body>
-    <h2 style="text-align: center">Lightbox</h2>
+    <h2 style="text-align: center">Automation</h2>
 
     <!-- Thumbnails -->
     <div class="row">
-      <div class="card" onclick="openModal();currentSlide(1)">
+      <a
+        href="https://forms.office.com/pages/responsepage.aspx?id=3AYxJ3go60K3yAadzzNGhxLT8mKRdEhAsWMohRmLXOVUNElQSFU3TU1PMDRCSjNWU1NXT0FKV0dGVSQlQCN0PWcu&sid=9df60079-55cc-4ec2-9285-a96fd355fa85"
+        target="_blank"
+        class="card card-link"
+      >
         <img
-          src="assets/medical-professionals-examining-the-health-of-the-2021-09-01-11-15-47-utc.jpg"
+          src="assets/crop.png"
           style="width: 100%"
           class="thumbnail cursor"
         />
         <div class="card-text">
-          <h3>Example here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
+          <h3>Image crop</h3>
+          <p>This tool will help you to resize images.</p>
         </div>
-      </div>
-      <div class="card" onclick="openModal();currentSlide(2)">
+      </a>
+      <a
+        href="https://forms.office.com/pages/responsepage.aspx?id=3AYxJ3go60K3yAadzzNGhxLT8mKRdEhAsWMohRmLXOVURDNZVTYwSVNHQUgxRU85RzI2UUZaN0RENiQlQCN0PWcu"
+        target="_blank"
+        class="card card-link"
+      >
         <img
-          src="assets/medical-professionals-examining-the-health-of-the-2021-09-01-11-15-47-utc.jpg"
+          src="assets/video.png"
           style="width: 100%"
           class="thumbnail cursor"
         />
         <div class="card-text">
-          <h3>Example here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
+          <h3>Video trim</h3>
+          <p>Perfect for creating clips from video files.</p>
         </div>
-      </div>
+      </a>
       <div class="card" onclick="openModal();currentSlide(3)">
         <img
-          src="assets/medical-professionals-examining-the-health-of-the-2021-09-01-11-15-47-utc.jpg"
+          src="assets/hex.png"
           style="width: 100%"
           class="thumbnail cursor"
         />
         <div class="card-text">
-          <h3>Example here</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
+          <h3>Hex interaction</h3>
+          <p>This tool will help you to find colour combinations.</p>
         </div>
       </div>
       <div class="card" onclick="openModal();currentSlide(4)">
@@ -221,7 +225,7 @@
           class="thumbnail cursor"
         />
         <div class="card-text">
-          <h3>Example here</h3>
+          <h3>Coming soon</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor
@@ -252,7 +256,10 @@
 
         <div class="mySlides">
           <div class="numbertext">3 / 4</div>
-          <img src="img_mountains_wide.jpg" style="width: 100%" />
+          <iframe
+            src="hex/hex/index.html"
+            style="width: 100%; height: 100vh"
+          ></iframe>
         </div>
 
         <div class="mySlides">
@@ -268,7 +275,7 @@
         </div>
 
         <!-- Thumbnail at bottom of modal -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="card">
             <img
               class="demo cursor"
@@ -304,8 +311,8 @@
               onclick="currentSlide(4)"
               alt="Northern Lights"
             />
-          </div>
-        </div>
+          </div> 
+        </div> -->
       </div>
     </div>
 
