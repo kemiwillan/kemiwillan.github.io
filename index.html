@@ -32,12 +32,13 @@
       }
 
       .card {
-        max-width: 250px;
-        border: 1px solid black;
+        max-width: 300px;
         border-radius: 10px;
         margin: 1rem;
         flex: 0 0 1;
         cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+          0 4px 6px -4px rgb(0 0 0 / 0.1);
       }
 
       .thumbnail {
@@ -173,7 +174,10 @@
     </style>
   </head>
   <body>
-    <h2 style="text-align: center">Automation</h2>
+    <h2 style="text-align: center">Automation Tools</h2>
+    <h5 style="color: rgb(148 163 184); text-align: center">
+      Some tools will open in a new tab.
+    </h5>
 
     <!-- Thumbnails -->
     <div class="row">
@@ -218,18 +222,14 @@
           <p>This tool will help you to find colour combinations.</p>
         </div>
       </div>
-      <div class="card" onclick="openModal();currentSlide(4)">
+      <!-- <div class="card" onclick="openModal();currentSlide(4)">
         <img
           src="assets/medical-professionals-examining-the-health-of-the-2021-09-01-11-15-47-utc.jpg"
           style="width: 100%"
           class="thumbnail cursor"
         />
         <div class="card-text">
-          <h3>Coming soon</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
+          <h3>Coming soon</h3> -->
         </div>
       </div>
     </div>
