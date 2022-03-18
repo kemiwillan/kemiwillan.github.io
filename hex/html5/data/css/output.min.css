@@ -354,13 +354,13 @@
 .cs-npnxnanbnsnfns00000000001.cs-base {
   color: rgba(186, 187, 186, 1);
   border-color: rgba(40, 40, 40, 1);
-  background: rgb(255, 255, 255);
+  background: rgba(40, 40, 40, 1);
 }
 .cs-npnxnanbnsnfns00000000001.cs-base .cs-separator .cs-diva {
-  background: rgb(255, 255, 255);
+  background: rgba(69, 69, 69, 1);
 }
 .cs-npnxnanbnsnfns00000000001.cs-base .cs-separator .cs-divb {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .cs-npnxnanbnsnfns00000000001.cs-base .cs-topmenu-item.active .cs-tab {
   border-color: rgba(69, 69, 69, 1);
@@ -372,7 +372,7 @@
   background: rgba(33, 33, 33, 1);
 }
 .cs-npnxnanbnsnfns00000000001.cs-base .cs-area-primary .cs-slide-container {
-  background: rgb(255, 255, 255);
+  background: rgba(40, 40, 40, 1);
 }
 .cs-npnxnanbnsnfns00000000001.cs-base.cs-custom-theme .cs-brandhighlight-bg {
   background: rgba(79, 189, 244, 1) !important;
@@ -710,7 +710,7 @@ body:not(.is-touchable-tablet)
   background: rgba(40, 40, 40, 0.8);
 }
 .cs-npnxnanbnsnfns00000000001 .lightbox .option-pane:before {
-  background: #d1d1d1;
+  background: #282828;
 }
 .cs-npnxnanbnsnfns00000000001 .message-window {
   background: #212121;
@@ -744,7 +744,7 @@ body:not(.is-touchable-tablet)
   color: #f8f8f8;
 }
 .cs-npnxnanbnsnfns00000000001.cs-base {
-  background: #ffffff;
+  background: #f8f8f8;
 }
 .cs-npnxnanbnsnfns00000000001 .cs-menu {
   background: transparent;
