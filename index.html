@@ -18,11 +18,14 @@
       }
 
       .row {
-        max-width: 1150px;
+        max-width: 1000px;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: left;
+      }
+      @media screen and (max-width:750px) {
+        .row {justify-content: center;}
       }
 
       .row:after {
@@ -176,6 +179,7 @@
     
     <!-- Thumbnails -->
     <div class="row">
+  
       <a
         href="https://forms.office.com/pages/responsepage.aspx?id=3AYxJ3go60K3yAadzzNGhxLT8mKRdEhAsWMohRmLXOVUNElQSFU3TU1PMDRCSjNWU1NXT0FKV0dGVSQlQCN0PWcu&sid=9df60079-55cc-4ec2-9285-a96fd355fa85"
         target="_blank"
@@ -191,6 +195,7 @@
           <p>This tool will help you to resize images.</p>
         </div>
       </a>
+      
       <a
         href="https://forms.office.com/pages/responsepage.aspx?id=3AYxJ3go60K3yAadzzNGhxLT8mKRdEhAsWMohRmLXOVURDNZVTYwSVNHQUgxRU85RzI2UUZaN0RENiQlQCN0PWcu"
         target="_blank"
@@ -217,6 +222,23 @@
           <p>Swatch out! We've got some hues for you! Instantly match brand colours using this helpful tool.</p>
         </div>
       </div>
+      <a
+        href="https://forms.office.com/pages/responsepage.aspx?id=3AYxJ3go60K3yAadzzNGhxLT8mKRdEhAsWMohRmLXOVUNElQSFU3TU1PMDRCSjNWU1NXT0FKV0dGVSQlQCN0PWcu&sid=9df60079-55cc-4ec2-9285-a96fd355fa85"
+        target="_blank"
+        class="card card-link"
+      >
+        <img
+          src="assets/blobify2.png"
+          style="width: 100%"
+          class="thumbnail cursor"
+        />
+        <div class="card-text">
+          <h3>Blobify</h3>
+          <p>Places images inside S+N branded blobs.</p>
+        </div>
+      </a>
+    
+      
       <!-- <div class="card" onclick="openModal();currentSlide(4)">
         <img
           src="assets/medical-professionals-examining-the-health-of-the-2021-09-01-11-15-47-utc.jpg"
